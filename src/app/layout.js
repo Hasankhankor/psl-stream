@@ -15,6 +15,10 @@ export default function RootLayout({ children }) {
       <head>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+         <Script
+          type="text/javascript"
+          src="//www.topcreativeformat.com/6b26e94c5e18432a04d766fb715b3b5b/invoke.js"
+        />
       </head>
       <body className={inter.className}>{children}
       <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
